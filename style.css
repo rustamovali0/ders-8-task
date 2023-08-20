@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav {
+  height: 80px;
+  width: 1350px;
+}
+
+nav ul {
+  float: right;
+  font-size: 23px;
+  list-style: none;
+  padding-top: 28px;
+
+  cursor: pointer;
+
+  display: inline-block;
+}
+nav li {
+  float: right;
+  padding-right: 35px;
+}
+.opt {
+  margin-right: 35px;
+  width: 110px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0);
+  border: 2px solid white;
+  cursor: pointer;
+}
+option {
+  background-color: aqua;
+  cursor: pointer;
+}
+.logoNav img {
+  width: 250px;
+  height: 70px;
+}
+.logoNav {
+  display: inline-block;
+}
+.bckcolor {
+  background: rgb(199, 238, 245);
+  background: linear-gradient(
+    90deg,
+    rgb(86, 163, 177) 0%,
+    rgb(26, 146, 142) 35%,
+    rgb(60, 223, 255) 100%
+  );
+  width: 1350px;
+  height: 400px;
+  position: relative;
+}
+
+.colortext {
+  width: 900px;
+  position: absolute;
+  top: 170px;
+  left: 120px;
+  color: white;
+}
+.colortext h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.colortext p {
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+.colortext button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  font-size: 23px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+.colortext h5 {
+  font-size: 18px;
+}
+
+.bckcolor1 {
+  background-color: rgba(196, 196, 196, 0.637);
+  width: 1350px;
+  height: 1800px;
+}
+.text1 img {
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+.text1 {
+  width: 850px;
+  height: 600px;
+
+  margin-left: 250px;
+  text-align: center;
+}
+.text1 p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.box1 {
+  width: 1150px;
+  height: 370px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  position: relative;
+}
+.box1:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box1 img {
+  width: 230px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.box1 button {
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgb(219, 49, 6);
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+}
+.yazi {
+  width: 650px;
+  height: 370px;
+  position: absolute;
+  left: 500px;
+  top: 0px;
+}
+.yazi h1 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.yazi p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.yazi h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.yazi ul {
+  list-style: none;
+}
+.yazi li {
+  float: left;
+  padding-right: 40px;
+  font-size: 25px;
+}
+.boxs {
+  margin-top: 60px;
+  width: 1310px;
+  height: 700px;
+  position: relative;
+  margin-left: 40px;
+}
+.aa {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  margin-right: 30px;
+  text-align: center;
+}
+.aa:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.aa img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+.aa h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.aa p {
+  font-size: 17px;
+}
+.aa h3 {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.aa li {
+  text-align: left;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 23px;
+}
+.bb {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  left: 430px;
+  text-align: center;
+}
+.bb:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.bb img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+.bb h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bb p {
+  font-size: 17px;
+}
+.bb h3 {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.bb li {
+  text-align: left;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 23px;
+}
+.cc {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 860px;
+  text-align: center;
+}
+.cc:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cc img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+.cc h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cc p {
+  font-size: 17px;
+}
+.cc h3 {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.cc li {
+  text-align: left;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 23px;
+}
+.bckcolor3 {
+  background: rgb(199, 238, 245);
+  background: linear-gradient(
+    90deg,
+    rgb(86, 163, 177) 0%,
+    rgb(26, 146, 142) 35%,
+    rgb(60, 223, 255) 100%
+  );
+  width: 1350px;
+  height: 800px;
+  position: relative;
+}
+.bckcolor3 h1 {
+  color: white;
+  width: 900px;
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 70px;
+}
+.bckcolor3 img {
+  width: 900px;
+  height: 530px;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.bckcolor4 {
+  width: 1350px;
+  height: 900px;
+  position: relative;
+}
+.c {
+  padding-top: 80px;
+  padding-left: 200px;
+}
+.c h1,
+h4 {
+  padding-bottom: 20px;
+}
+.bckcolor4 img {
+  width: 300px;
+  height: 200px;
+
+  object-fit: cover;
+  position: absolute;
+  top: 70px;
+  left: 750px;
+}
+.v {
+  height: 370px;
+  width: 1150px;
+  margin-top: 180px;
+  position: relative;
+  margin-left: 200px;
+}
+
+.v h1 {
+  width: 300px;
+  padding-bottom: 20px;
+}
+.v p {
+  width: 500px;
+  font-size: 23px;
+}
+.v button {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(204, 76, 67);
+  color: aliceblue;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.v img {
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+}
+.footer {
+  width: 1350px;
+  height: 500px;
+  background-color: rgb(66, 66, 80);
+}
+.p{
+  font-size: 23px;
+  color: white;
+  margin-top: 50px;
+ float: right;
+
+}
+.p p{
+  padding-right: 200px;
+  padding-top: 30px;
+}
+i{
+  font-size: 50px;
+  color: aqua;
+}
